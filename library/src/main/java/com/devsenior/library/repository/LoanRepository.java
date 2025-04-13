@@ -1,13 +1,15 @@
 package com.devsenior.library.repository;
 
 import com.devsenior.library.model.Loan;
-import com.devsenior.library.model.User;
+import java.util.List;
 
 public class LoanRepository {
     public void save(Loan loan){ // void save(Loan loan);
 
     }
-    void findByUserId(String id){
-        
+
+
+    public List<Loan> findByUserId(String userId) {
+        return null; 
     }
 }

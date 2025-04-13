@@ -6,7 +6,8 @@ public class BookRepository {
     public void save(Book book){
 
     }
-    void findById(String id){
 
+    public Book findById(String id){
+        return null;
     }
 }
